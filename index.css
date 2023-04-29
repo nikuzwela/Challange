@@ -1,0 +1,206 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+    
+}
+.container1{
+    width: 20%;
+    background-image: url(./images/bg-sidebar-desktop.svg);
+    height: 568px;
+    padding-left: 30px;
+    padding-top: 30px;
+    position: absolute;
+    top: 40px;
+   left: 150px;
+}
+.steps{
+    display: block; 
+}
+.step1 {
+    display: flex;
+    gap: 20px;
+    padding-bottom: 20px; color: white;
+}
+.step1 strong p{
+    font-weight: 300;
+}
+.step1 strong h3{
+    font-weight: 700;
+}
+.step1 span{
+    padding-top: 2px;
+    border: 3px solid white;
+    color: white;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+   text-align: center;
+
+}
+.step1 span a{
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    
+}
+.card {
+    padding-top: 40px;
+    display: flex;
+    gap: 40px; 
+}
+.container2 {
+    height: 587px;
+    padding-left: 400px;
+    float: right;
+    background-color: white;
+    width: 80%;
+    position: relative;
+    padding-top: 30px;
+    color:  rgb(2, 2, 20);
+    margin-right: 130px;
+    margin-top: 30px;
+    box-shadow: 5px 5px 15px  black;
+}
+.yearly{
+    background-color: gainsboro;
+    height: 40px;
+    width: 87%;
+    border-radius: 10px;
+    margin-top: 30px;
+    padding-top: 10px;
+    text-align: center;
+}
+.card1{
+    width: 25%;
+    height: 40%;
+    padding: 10px 10px 30px 20px;
+    border: 2px solid rgb(2, 2, 20);
+    border-radius: 20px;
+}
+.card1 img{
+    padding-bottom: 30px;
+}
+.container h1{
+    font-size: 25px;
+    padding-bottom: 10px;
+    color: rgb(2, 2, 20); ;
+}
+.card1:hover{
+    background-color: whitesmoke;
+}
+.foot{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 100px;
+    margin-top: 160px;
+}
+.foot a{
+    width: 120px;
+    height: 40px;
+    padding-top: 8px;
+    padding-left: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 10px;
+    background-color:  rgb(2, 2, 20);
+    border: none;
+    text-decoration: none;
+}
+.foot a:hover{
+    background-color: gainsboro;
+    color: rgb(2, 2, 20); ;
+}
+.container3{
+    height: 587px;
+    padding-left: 400px; 
+    width: 80%;
+    float: right;
+    position: relative;
+    padding-top: 30px;
+    color:  rgb(2, 2, 20);
+    margin-right: 130px;
+    margin-top: 30px;
+    background-color: white;
+    box-shadow: 5px 5px 15px  black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container3 form input{
+    width: 400px;
+    height: 40px;
+    margin-bottom: 30px;
+}
+form a{
+width: 120px;
+height: 40px;
+margin-right: 100px;
+margin-top: 100px;
+text-decoration: none;
+padding-top: 8px;
+padding-left: 10px;
+font-size: 18px;
+background:  rgb(2, 2, 20);
+float: right;
+font-weight: bold;
+color: white;
+border: none;
+border-radius: 10px;
+}
+form a:hover{
+    background-color: gainsboro;
+    color:  rgb(2, 2, 20);;
+}
+form{
+    padding-top: 40px;
+}
+.container3 h1{
+    padding-bottom: 20px;
+}
+.container4{
+    height: 587px;
+    padding-left: 350px;
+    float: right;
+    background-color:white;
+    width: 80%;
+    position: relative;
+    box-shadow: 5px 5px 15px  black;
+    text-align: center;
+    padding-top: 30px;
+    color:  rgb(2, 2, 20);
+    margin-right: 130px;
+    margin-top: 30px; 
+}
+.container4 img{
+    padding-top: 100px;
+}
+.container4 h1{
+    padding-top: 40px;
+}
+@media screen and (max-width:500px) {
+.container1{
+    background-image: url(./images/bg-sidebar-mobile.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+   width: 100%;
+   left: 20px;
+}
+.steps{
+    display: flex;
+    gap: 20px;
+}
+.container{
+    position: relative;
+}
+.step1{
+    display: block;
+    
+}
+
+    
+}
